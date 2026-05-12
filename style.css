@@ -41,7 +41,21 @@
 .input-section button:hover {
     background-color: #0056b3;
 }
+/* Вставка кнопки*/
+.cta-button {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+.cta-button:hover {
+    background-color: #e55a2b;
+}
 /* Стили для баннера */
 .banner {
     position: relative;
